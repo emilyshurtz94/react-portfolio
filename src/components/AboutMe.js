@@ -10,8 +10,7 @@ export default function AboutMe() {
           <div>
             <h1>Hello, I'm <span className="text-warning"> Emily Shurtz </span></h1>
             <p className="lead my-4">
-              I currently live in Arizona, but am willing to relocate or work from home. I'm a new web developer. I'm
-              married and have a super cute puppy.
+              I currently live in Arizona, but am willing to relocate or work from home. I'm a new web developer.I just finished UofA full-stack bootcamp. I'm excited to put my new skills to work. I love to constantly learn new things and grow to become the best web developer I can be.
             </p>
           </div>
         </div>
