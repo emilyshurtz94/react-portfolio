@@ -2,6 +2,8 @@
 
 https://my-react-portfolio-123.herokuapp.com/
 
+![screenshot](/public/images/screenshot-application.png "application screenshot")
+
 ## Description
     I improved my static portfolio and made it a react portfolio
 
