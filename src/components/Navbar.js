@@ -14,16 +14,13 @@ export default function Navbar() {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+            <Link className="nav-link active" aria-current="page" to="/">About</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link" to="/project">Projects</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/education">Education</Link>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="https://docs.google.com/document/d/1vXlSVyDLVMmqqHpQTan7_pJhmUmoTY0Ee-ZtQmEdWCA/edit">Resume</a>
+            <a className="nav-link" href="https://docs.google.com/document/d/1o3DhC2jWhTuGUqP-bMPu8s4dLRn-gp9Six1hHGhMZUw/edit?usp=sharing">Resume</a>
           </li>
         </ul>
       </div>

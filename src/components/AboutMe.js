@@ -6,7 +6,7 @@ export default function AboutMe() {
         <section className="p-3 mb-2 bg-secondary text-white">
       <div className="container" id="aboutme">
         <div className="d-sm-flex align-items-center justify-content-between">
-          <img className="img-fluid w-10px d-none d-sm-block" id="picture" src="../images/Emily Picture.jpeg" alt="emily-formal" />
+          <img className="img-fluid p-3 w-10px d-none d-sm-block" id="picture" src="../images/Emily Picture.jpeg" alt="emily-formal" />
           <div>
             <h1>Hello, I'm <span className="text-warning"> Emily Shurtz </span></h1>
             <p className="lead my-4">

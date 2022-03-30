@@ -1,30 +1,32 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
+import { faCircleArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
 
 export default function Footer() {
 
 
   return (
-    <div>
-      <section className="p-3 mb-2 bg-dark text-white g-col-12">
-        <div className="container ">
-          <div className=" row">
-            <div className="d-block col">
-              <a href="mailto:emily.shurtz94@gmail.com"><FontAwesomeIcon className= 'fa-5x'icon={faEnvelope}></FontAwesomeIcon></a>
+      <section className="bg-dark text-white">
+        <div className="container">
+          <div className="row">
+            <div className="col-3 py-3 px-md-5">
+              <a href="https://github.com/emilyshurtz94"><FontAwesomeIcon className='fa-3x'icon={faGithub}></FontAwesomeIcon></a>
             </div>
-            <div className="d-block col">
-              <a href="https://github.com/emilyshurtz94"><FontAwesomeIcon className= 'fa-5x' icon={faGithub}></FontAwesomeIcon></a>
-              </div>
-              <div className="d-block col">
-                <a href="https://www.linkedin.com/in/emily-shurtz-2a2766b1/"><FontAwesomeIcon className= 'fa-5x' icon={faLinkedin}></FontAwesomeIcon></a>
-              </div>
+            <div className="col-3 py-3 px-md-5">
+              <a href="https://www.linkedin.com/in/emily-shurtz-2a2766b1/"><FontAwesomeIcon className='fa-3x'icon={faLinkedin}></FontAwesomeIcon></a>
             </div>
+            <div className="col-3 py-3 px-md-5">
+              <a href="https://www.upwork.com/freelancers/~0138b7adf5c0b444bf"><FontAwesomeIcon className='fa-3x'icon={faCircleArrowUp} /></a>
+            </div>
+            <div className="col-3 py-3 px-md-5">
+              <a href="https://stackoverflow.com/users/17388824/emily-shurtz?tab=profile"><FontAwesomeIcon className='fa-3x'icon={faStackOverflow} /></a>
+            </div>
+          </div>
         </div>
       </section>
-    </div >
 
   )
 }
