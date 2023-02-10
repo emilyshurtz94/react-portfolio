@@ -20,7 +20,7 @@ export default function Navbar() {
             <Link className="nav-link" to="/project">Projects</Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="https://docs.google.com/document/d/1o3DhC2jWhTuGUqP-bMPu8s4dLRn-gp9Six1hHGhMZUw/edit?usp=sharing">Resume</a>
+            <a className="nav-link" href="https://drive.google.com/file/d/1Q-vxswa-Oe1ftnJaHD2v-S26FNqGkwXC/view?usp=sharing">Resume</a>
           </li>
         </ul>
       </div>

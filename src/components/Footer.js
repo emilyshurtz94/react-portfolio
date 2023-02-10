@@ -9,7 +9,7 @@ export default function Footer() {
 
 
   return (
-      <section className="bg-dark text-white">
+      <section className="bg-dark">
         <div className="container">
           <div className="row">
             <div className="col-3 py-3 px-md-5">
